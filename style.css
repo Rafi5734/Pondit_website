@@ -1,0 +1,99 @@
+.heading-second {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid #000; */
+}
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+.text-header {
+    width: 10%;
+    margin-right: 200px;
+    color: #8a95a0;
+    float: left;
+}
+
+.header-second-content {
+    background-image: url(/images/01_Pondit_Homepage-secondary-logo2.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding: 30px;
+}
+.button-one {
+    background-color: white;
+    border: none;
+    font-size: 1.2em;
+    color: #8a95a0;
+}
+.button-two {
+    background-color: white;
+    border: 1px solid #0288d1;
+    padding: 10px 15px 10px 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #0288d1;
+    border-radius: 30px;
+}
+.navbar-main {
+    background-color: #ebebeb;
+}
+.navbar-third {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 1px solid #000; */
+}
+.nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid #d7d7d7;
+}
+.nav-p {
+    color: black;
+}
+.nav-p:hover {
+    color: #0288d1;
+}
+.homepage-content-special {
+    width: 100%;
+    height: 100vh;
+}
+.homepage-content-career-main-homepage {
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid #000; */
+    overflow: hidden;
+}
+.career-second {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.career-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid #000; */
+}
+.career-title {
+    margin-top: -180px;
+    color: #0288d1;
+}
+.career-image1 {
+    margin-top: 75px;
+}
+.career-image2 {
+    margin-top: -500px;
+    width: 90%;
+}
+.career-image3 {
+    margin-right: 200px;
+    margin-top: -630px;
+    margin-left: 100px;
+}
