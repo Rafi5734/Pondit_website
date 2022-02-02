@@ -544,3 +544,19 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
     opacity: 0;
     visibility: hidden;
 }
+.footer-main {
+    position: relative;
+    top: -50px;
+    width: 100%;
+    height: 45vh;
+    /* border: 1px solid #000; */
+    background-image: url("/images/01_Pondit_Homepage_footer_bg.png");
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
