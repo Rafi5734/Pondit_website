@@ -64,6 +64,10 @@
     width: 100%;
     height: 100vh;
 }
+.homepage-content-special {
+    width: 100%;
+    height: 90vh;
+}
 .homepage-content-career-main-homepage {
     width: 100%;
     height: 90vh;
@@ -98,11 +102,11 @@
     margin-left: 100px;
 }
 .assess-main {
+    position: relative;
     width: 100%;
     height: 90vh;
     /* border: 1px solid #000; */
     margin-top: -305px;
-    /* background-image: url(/images/01_Pondit_Homepage_line_2.png); */
     background-repeat: no-repeat;
     background-position: 25% 10%;
     z-index: -1;
@@ -111,7 +115,7 @@
     position: relative;
     left: 330px;
     bottom: 40px;
-    z-index: 5;
+    /* z-index: 5; */
 }
 .access-first {
     display: grid;
@@ -157,7 +161,8 @@
     width: 100%;
     height: 60vh;
     /* border: 1px solid #000; */
-    background-image: url("/images/01_Pondit_Homepage_skill_bg.png");
+    /* background-image: url("/images/01_Pondit_Homepage_skill_bg.png"); */
+    z-index: -1;
 }
 .skill-title {
     position: relative;
@@ -402,6 +407,10 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
     -webkit-box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
     box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
 }
+.contact-title1 {
+    color: #0288d1;
+    font-weight: 400;
+}
 .about-location {
     display: flex;
     justify-content: center;
@@ -411,12 +420,17 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
 .fa-location-arrow {
     font-size: 1.3rem;
 }
-/* .input-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} */
+.fa-phone {
+    font-size: 1.3rem;
+}
+.fa-envelope {
+    font-size: 1.3rem;
+    margin-bottom: 70px;
+}
+.contact-title2 {
+    color: #0288d1;
+    font-weight: 400;
+}
 .sub-input-wrap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -559,4 +573,161 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+@media only screen and (max-width: 1850px) {
+    .homepage-content-special {
+        width: 100%;
+        height: 110vh;
+    }
+    .homepage-content-career-main-homepage {
+        width: 100%;
+        height: 90vh;
+        position: relative;
+
+        overflow: hidden;
+    }
+    .assess-main {
+        position: relative;
+        margin-top: -120px;
+        z-index: 1;
+    }
+    .assess-title {
+        margin-left: -20px;
+    }
+    .assess-main-img {
+        position: relative;
+        z-index: 7;
+        right: 250px;
+    }
+    .pencil_man {
+        margin-top: 60px;
+    }
+    .skill-main {
+        position: relative;
+        margin-top: 250px;
+        z-index: -1;
+        height: 70vh;
+    }
+    .skill-main-title {
+        margin-right: 200px;
+    }
+    .student-main {
+        height: 72vh;
+    }
+    .contact-main {
+        height: 92vh;
+    }
+    .location {
+        height: 80vh;
+    }
+    .contact-us {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 1750px) {
+    .assess-title {
+        position: relative;
+        left: 850px;
+    }
+    .assess-main-img {
+        position: relative;
+        left: 270px;
+    }
+    .pencil_man {
+        margin-right: 100px;
+    }
+    .line_4 {
+        position: relative;
+        right: -455px;
+    }
+    .skill-title {
+        position: relative;
+        left: 600px;
+    }
+    .student-1 {
+        position: relative;
+        left: 30px;
+    }
+    .student-2 {
+        margin-left: 150px;
+    }
+}
+@media only screen and (max-width: 1650px) {
+    .assess-title {
+        position: relative;
+        left: 785px;
+    }
+    .assess-main-img {
+        position: relative;
+        left: 170px;
+    }
+    .skill-title {
+        position: relative;
+        left: 500px;
+    }
+    .line_4 {
+        position: relative;
+        right: -400px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .specia-home-bg {
+        width: 100%;
+    }
+    .assess-main-img {
+        position: relative;
+        left: 130px;
+    }
+    .assess-title {
+        position: relative;
+        left: 720px;
+    }
+    .skill-main {
+        height: 80vh;
+    }
+    .skill-title {
+        position: relative;
+        left: 450px;
+    }
+    .skill-description {
+        position: relative;
+        top: 50px;
+    }
+    .skill-slides {
+        position: relative;
+        top: 50px;
+    }
+    .student-1 {
+        width: 90%;
+        margin-left: 80px;
+    }
+    .line_4 {
+        position: relative;
+        right: -420px;
+        top: -205px;
+    }
+}
+@media only screen and (max-width: 1350px) {
+    .assess-main-img {
+        position: relative;
+        left: 50px;
+    }
+    .assess-title {
+        position: relative;
+        left: 620px;
+    }
+    .skill-title {
+        position: relative;
+        left: 350px;
+    }
+    .line_4 {
+        position: relative;
+        right: -300px;
+        top: -205px;
+    }
+    .all-slides {
+        width: 550px;
+    }
 }
