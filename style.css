@@ -711,9 +711,30 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
         position: relative;
         left: 850px;
     }
+    .one-off {
+        position: relative;
+        top: 200px;
+        left: 140px;
+    }
+    .two-off {
+        position: relative;
+        top: 100px;
+        left: 190px;
+    }
+    .three-off {
+        position: relative;
+        top: 650px;
+        right: 10px;
+    }
+    .four-off {
+        position: relative;
+        top: 600px;
+        right: 6px;
+        width: 100%;
+    }
     .assess-main-img {
         position: relative;
-        left: 270px;
+        left: 250px;
     }
     .pencil_man {
         margin-right: 100px;
@@ -724,7 +745,7 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
     }
     .skill-title {
         position: relative;
-        left: 600px;
+        left: 620px;
     }
     .student-1 {
         position: relative;
