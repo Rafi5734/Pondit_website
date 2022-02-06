@@ -67,6 +67,62 @@
 .homepage-content-special {
     width: 100%;
     height: 90vh;
+    background-image: url(/images/01_Pondit_Homepage_Updated_homePage.png);
+}
+.about-pondit {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.short-pondit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+.one-off {
+    position: relative;
+    top: 200px;
+    left: 55px;
+}
+.path-title {
+    font-size: 1.3rem;
+    color: #ea9722;
+}
+.BOT {
+    text-decoration: none;
+}
+.two-off {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.self-title {
+    font-size: 1.3rem;
+    color: #eb483d;
+}
+.three-off {
+    position: relative;
+    top: 650px;
+    right: 100px;
+}
+.improve-title {
+    font-size: 1.3rem;
+    color: #1abdd4;
+}
+.four-off {
+    position: relative;
+    top: 600px;
+    right: 90px;
+    width: 100%;
+}
+.grow-title {
+    margin-left: 80px;
+    font-size: 1.3rem;
+    color: #1abdd4;
+}
+.grow-para {
+    position: relative;
+    left: px;
 }
 .homepage-content-career-main-homepage {
     width: 100%;
