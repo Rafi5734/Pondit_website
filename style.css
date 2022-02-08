@@ -1239,9 +1239,9 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
     .admin-main {
         width: 100%;
         height: 124vh;
-        border: 1px solid #000;
+        /* border: 1px solid #000; */
         position: relative;
-        bottom: 200px;
+        bottom: 250px;
         background-image: url("/Pondit-home-page-image-for-phone/admin-bg.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -1262,6 +1262,7 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
     .fa-user-graduate {
         margin-bottom: 20px;
         font-size: 5rem;
+        margin-top: 50px;
     }
     .fa-book-reader {
         margin-bottom: 20px;
@@ -1274,5 +1275,29 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
     .fa-award {
         margin-bottom: 20px;
         font-size: 5rem;
+    }
+    .mentors-main {
+        width: 100%;
+        height: 320vh;
+        /* border: 1px solid #000; */
+    }
+    .mentor-list {
+        list-style: none;
+    }
+    .mentor-cards {
+        width: 100%;
+        height: 50vh;
+        background-image: url("https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .success-story {
+        width: 100%;
+        height: 200vh;
+        border: 1px solid #000;
     }
 }
