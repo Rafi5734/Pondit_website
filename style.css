@@ -1236,4 +1236,43 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
         top: 50px;
         margin-bottom: 80px;
     }
+    .admin-main {
+        width: 100%;
+        height: 100vh;
+        border: 1px solid #000;
+        position: relative;
+        bottom: 200px;
+        background-image: url("/Pondit-home-page-image-for-phone/admin-bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        object-fit: center;
+        background-size: 400px 915px;
+        background-attachment: fixed;
+        filter: grayscale(100%);
+    }
+    .admin-sub-all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+        color: white;
+        border-bottom: 1px solid #fff;
+    }
+    .fa-user-graduate {
+        margin-bottom: 20px;
+        font-size: 5rem;
+    }
+    .fa-book-reader {
+        margin-bottom: 20px;
+        font-size: 5rem;
+    }
+    .fa-chalkboard-teacher {
+        margin-bottom: 20px;
+        font-size: 5rem;
+    }
+    .fa-award {
+        margin-bottom: 20px;
+        font-size: 5rem;
+    }
 }
