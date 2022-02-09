@@ -1397,4 +1397,14 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
         justify-content: center;
         align-items: center;
     }
+    .google-maps-table {
+        width: 100%;
+        height: 40vh;
+        border: 1px solid #000;
+        position: relative;
+        bottom: 400px;
+    }
+    #map {
+        height: 40vh;
+    }
 }
